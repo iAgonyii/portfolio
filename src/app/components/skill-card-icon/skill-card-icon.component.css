@@ -1,0 +1,40 @@
+:host { 
+  display: contents; 
+}
+.skill-card-icon-feature-card {
+  width: 100%;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: 32px;
+  padding-right: 32px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: center;
+}
+.skill-card-icon-feature-card:hover {
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: var(--dl-color-gray-900);
+}
+.skill-card-icon-icon {
+  fill: var(--dl-color-gray-500);
+  width: 50px;
+  height: 50px;
+}
+.skill-card-icon-text {
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.skill-card-icon-text1 {
+  color: var(--dl-color-gray-700);
+  text-align: center;
+}
+
+
+
+
+

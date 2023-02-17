@@ -7,6 +7,10 @@ import { Component, Input } from '@angular/core'
 })
 export class ExperienceCard {
   @Input()
+  position: boolean = true
+  @Input()
+  period: string = 'JAN 2023 - PRESENT'
+  @Input()
   description: string =
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lorem lorem, malesuada in metus vitae, scelerisque accumsan ipsum.'
   @Input()

@@ -40,6 +40,13 @@
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
+
+.experience-card-text2 {
+  align-self: flex-start;
+  font-weight: 500;
+  color: dimgrey;
+}
+
 .experience-card-text1 {
   align-self: flex-start;
 }

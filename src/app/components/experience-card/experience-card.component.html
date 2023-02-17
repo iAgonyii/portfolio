@@ -8,6 +8,7 @@
     <div class="experience-card-container1">
       <h2 class="experience-card-text">{{ title }}</h2>
     </div>
+    <div *ngIf="position"><span class="experience-card-text2">{{ period }}</span></div>
     <span class="experience-card-text1">{{ description }}</span>
   </div>
 </div>
